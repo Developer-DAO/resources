@@ -69,9 +69,25 @@ The community has created this knowledge base to help you **learn** and **grow**
    - [CryptoKitties](https://www.cryptokitties.co/)
    - [LootWars](https://lootwars.xyz/)
 
+## Courses
+
+### Free Courses
+- [Buildspace](https://www.buildspace.so) 
+
+    Action-oriented and community-driven course platform. Learn how to build a simple dApp or mint your own NFTs in just hours. (More courses later)
+
+- [Solidity by Example](https://solidity-by-example.org/)
+
+    Summary and examples of most common Solidity functions, use-cases, real smart contracts, and more. 
+
+### Paid Courses
+- [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) (Udemy)
+- [Smart Contracts con Solidity de la A a la Z](https://www.udemy.com/course/solidity-a-z/learn/lecture/26791510?start=0#overview) (Udemy) (Spanish)
 
 ## Other helpful resources
-- TBD
+- [OpenZeppelin](https://openzeppelin.com/contracts/)
+
+    Security standards and tools to build safe smart contracts on Solidity. Free for anyone to use. 
 
 ## Contributing
 
