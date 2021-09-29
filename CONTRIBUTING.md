@@ -1,8 +1,8 @@
 # Contributing
 
-Thank you for taking the time to contribute to our knowledge base. 
+Thank you for taking the time to contribute to our knowledge base.
 
-Please create pull request to contribute.
+We'd love for you to contribute directly by creating a pull request. If this is not possible, and you have new links or information to add, create an issue.  We'll review and add it into the repo as needed.
 
 ## Guidelines
 - TBD
