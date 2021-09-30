@@ -35,6 +35,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 
 ### 🎮  Interactive Game Tutorials
 - [CryptoZombies](https://cryptozombies.io/en/solidity)
+- [Capture the Ether](https://capturetheether.com/)
 
 ### 🔨 Tools
 - [Remix IDE](https://remix.ethereum.org/)
