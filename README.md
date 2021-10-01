@@ -36,7 +36,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 ### 📺 Content Creator Channels
 
 - [Nader Dabit on YouTube](https://www.youtube.com/c/naderdabit)
-- [Austin Griffith on YouTube](https://www.youtube.com/c/naderdabit)
+- [Austin Griffith on YouTube](https://www.youtube.com/channel/UC_HI2i2peo1A-STdG22GFsA)
 - [Patrick Collins on YouTube](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
 - [Whiteboard Crypto on YouTube](https://www.youtube.com/channel/UCsYYksPHiGqXHPoHI-fm5sg)
 
