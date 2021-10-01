@@ -96,8 +96,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 ## Courses
 
 ### Free Courses
-
-- [Buildspace](https://www.buildspace.so)
+- [Buildspace](https://buildspace.so) 
 
   Action-oriented and community-driven course platform. Learn how to build a simple dApp or mint your own NFTs in just hours. (More courses later)
 
