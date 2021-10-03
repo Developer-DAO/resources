@@ -104,6 +104,10 @@ The community has created this knowledge base to help you **learn** and **grow**
 
   Summary and examples of most common Solidity functions, use-cases, real smart contracts, and more.
 
+- [Questbook](https://questbook.notion.site/Questbook-Learn-Web3-a5f4be8b107f4647a91fe84e6aa7e722)
+
+  Questbook is a Decentralized University where learning web3 is always free
+
 ### Paid Courses
 
 - [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) (Udemy)
