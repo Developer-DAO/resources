@@ -108,7 +108,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 
   Questbook is a Decentralized University where learning web3 is always free
   
- - FreeCodeCamp's Solidity Tutorial(https://www.youtube.com/embed/M576WGiDBdQ)
+ - [FreeCodeCamp's Solidity Tutorial](https://www.youtube.com/embed/M576WGiDBdQ)
 
   Comprehensive introduction to main Solidity concepts (+blockchain/smart contracts) everyone needs to start writing their own ERC720 and ERC20 tokens, dApps, and more.  
 
