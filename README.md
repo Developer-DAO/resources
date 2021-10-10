@@ -46,6 +46,10 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.8/index.html)
 - [Solidity By Example](https://docs.soliditylang.org/en/v0.8.8/solidity-by-example.html)
 
+### 📖 Books
+
+- [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook), open source book by Andreas M. Antonopoulos and Gavin Wood
+
 ### 🎮 Interactive Game Tutorials
 
 - [CryptoZombies](https://cryptozombies.io/en/solidity)
