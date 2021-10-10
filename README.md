@@ -129,6 +129,13 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Smart Contracts con Solidity de la A a la Z](https://www.udemy.com/course/solidity-a-z/learn/lecture/26791510?start=0#overview) (Udemy) (Spanish)
 - [Smart Contract Engineer](https://www.smartcontract.engineer/)
 
+## 🔒 Security
+
+- [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security) contains curated resources to learn about Ethereum security, and also several useful tools
+- [Not so Smart Contracts](https://github.com/crytic/not-so-smart-contracts) contains examples of common smart contract vulnerabilities, including code from real smart contracts
+- [Smart Contract Security Audits](https://github.com/chainsulting/Smart-Contract-Security-Audits) performed and published by Chainsulting, with all audit reports included
+- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/) is the wargame to learn offensive security of DeFi smart contracts
+
 ## Other helpful resources
 
 - [OpenZeppelin](https://openzeppelin.com/contracts/)
