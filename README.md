@@ -136,6 +136,10 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Smart Contract Security Audits](https://github.com/chainsulting/Smart-Contract-Security-Audits) performed and published by Chainsulting, with all audit reports included
 - [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/) is the wargame to learn offensive security of DeFi smart contracts
 
+## Meetups
+
+- [Blockchain 101](https://blockchain101.com/) is a meetup group from NYC that runs a lot of virtual meetups every month, open to everyone remotely!
+
 ## Other helpful resources
 
 - [OpenZeppelin](https://openzeppelin.com/contracts/)
