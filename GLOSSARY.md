@@ -1,6 +1,27 @@
 
 # 📓 Glossary
 
+## A
+- What is a account?
+    > An Ethereum account is an entity with an ether (ETH) balance that can send transactions on Ethereum. Accounts can be user-controlled or deployed as smart contracts.
+- Ethereum accounts have four fields:
+
+    1. **nonce**:
+        > a counter that indicates the number of transactions sent from the account. This ensures transactions are only processed once. In a contract account, this number represents the number of contracts created by the account
+
+    2. **balance**:
+        >the number of wei owned by this address. Wei is a denomination of ETH and there are 1e+18 wei per ETH.
+
+    3. **codeHash**:
+        > this hash refers to the code of an account on the Ethereum virtual machine (EVM). Contract accounts have code fragments programmed in that can perform different operations. This EVM code gets executed if the account gets a message call. It cannot be changed unlike the other account fields. All such code fragments are contained in the state database under their corresponding hashes for later retrieval. This hash value is known as a codeHash. For externally owned accounts, the codeHash field is the hash of an empty string.
+
+    4. **storageRoot**:
+        >Sometimes known as a storage hash. A 256-bit hash of the root node of a Merkle Patricia trie that encodes the storage contents of the account (a mapping between 256-bit integer values), encoded into the trie as a mapping from the Keccak 256-bit hash of the 256-bit integer keys to the RLP-encoded 256-bit integer values. This trie encodes the hash of the storage contents of this account, and is empty by default.
+
+    ![here](https://ethereum.org/static/19443ab40f108c985fb95b07bac29bcb/302a4/accounts.png)
+
+    Diagram adapted from *[Ethereum EVM illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)*
+
 ## B
 - What is a Blockchain? 
     > A blockchain is a public database that is updated and shared across many computers in a network.
@@ -46,6 +67,11 @@
     > Ethereum is a blockchain platform with its own cryptocurrency, called Ether (ETH) or Ethereum, and its own programming language, called Solidity.
     
     [Learn more from Ethereum Docs](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
+
+- What is Ethereum virtual Machine(EVM)?
+    > The Ethereum protocol itself exists solely for the purpose of keeping the continuous, uninterrupted, and immutable operation of this special state machine; It's the environment in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one 'canonical' state, and the EVM is what defines the rules for computing a new valid state from block to block.
+
+    [Learn more from EVM Docs](https://ethereum.org/en/developers/docs/evm/)
 
 ## F
 - What is a Fungible Token?
@@ -98,3 +124,21 @@
    > Solidity is a curly-bracket language. It is influenced by C++, Python and JavaScript, and is designed to target the Ethereum Virtual Machine (EVM). 
 
    [Learn more from Solidity Docs](https://docs.soliditylang.org/en/v0.8.8/)
+
+## T
+- What is a Transaction?
+ >An Ethereum transaction refers to an action initiated by an externally-owned account, in other words an account managed by a human, not a contract. For example, if Bob sends Alice 1 ETH, Bob's account must be debited and Alice's must be credited. This state-changing action takes place within a transaction..
+
+## W
+- WEB2 VS WEB3
+    > Web2 refers to the version of the internet most of us know today. An internet dominated by companies that provide services in exchange for your personal data. Web3, in the context of Ethereum, refers to decentralized apps that run on the blockchain. These are apps that allow anyone to participate without monetising their personal data.
+
+
+    | Web2                      | Web3 |
+    | ------------- | ------------- |
+    | Twitter can censor any account or tweet  | Web3 tweets would be uncensorable because control is decentralized  |
+    | Payment service may decide to not allow payments for certain types of work  | Web3 payment apps require no personal data and can't prevent payments  |
+    | Servers for gig-economy apps could go down and affect worker income | Web3 servers can't go down – they use Ethereum, a decentralized network of 1000s of computers as their backend |
+
+
+  [ Learn more web2 vs web3 from here](https://ethereum.org/en/developers/docs/web2-vs-web3/)
