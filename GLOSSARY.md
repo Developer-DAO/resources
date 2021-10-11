@@ -20,7 +20,7 @@
 - What is Defi?
    > DeFi is a collective term for financial products and services that are accessible to anyone who can use Ethereum – anyone with an internet connection. With DeFi, the markets are always open and there are no centralized authorities who can block payments or deny you access to anything. Services that were previously slow and at risk of human error are automatic and safer now that they're handled by code that anyone can inspect and scrutinize.
 
-    [Learn more aboutr defi from here](https://ethereum.org/en/defi/)
+    [Learn more about defi from here](https://ethereum.org/en/defi/)
 ## E
 - What are ERC Tokens?
     > ERCs (Ethereum Request for Comments) are technical documents used by smart contract developers at Ethereum. They define a set of rules required to implement tokens for the Ethereum ecosystem. These documents are usually created by developers, and they include information about protocol specifications and contract descriptions. Before becoming an standard, an ERC must be revised, commented and accepted by the community through an EIP (Ethereum Improvement Proposal).
@@ -71,7 +71,7 @@
     
     > Metamask is a crypto wallet- it allows you to store and transact Ethereum or any other Ethereum-based (ERC- 20) tokens.
      
-    [Learn more from metamsk docs](https://docs.metamask.io/guide/)
+    [Learn more from metamask docs](https://docs.metamask.io/guide/)
 
 
 
