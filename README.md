@@ -50,6 +50,13 @@ The community has created this knowledge base to help you **learn** and **grow**
 
 - [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook), open source book by Andreas M. Antonopoulos and Gavin Wood
 
+### 🤯 More Resource Lists
+
+- [Solidity cheatsheet and best practices](https://github.com/manojpramesh/solidity-cheatsheet)
+- [Solidity gotchas, pitfalls, limitations, and idiosyncrasies](https://github.com/miguelmota/solidity-idiosyncrasies)
+- [Awesome Solidity](https://github.com/bkrem/awesome-solidity)
+- [Awesome Smart Contracts](https://github.com/transmute-industries/awesome-smart-contracts)
+
 ### 🎮 Interactive Game Tutorials
 
 - [CryptoZombies](https://cryptozombies.io/en/solidity)
