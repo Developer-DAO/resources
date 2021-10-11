@@ -46,6 +46,17 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.8/index.html)
 - [Solidity By Example](https://docs.soliditylang.org/en/v0.8.8/solidity-by-example.html)
 
+### 📖 Books
+
+- [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook), open source book by Andreas M. Antonopoulos and Gavin Wood
+
+### 🤯 More Resource Lists
+
+- [Solidity cheatsheet and best practices](https://github.com/manojpramesh/solidity-cheatsheet)
+- [Solidity gotchas, pitfalls, limitations, and idiosyncrasies](https://github.com/miguelmota/solidity-idiosyncrasies)
+- [Awesome Solidity](https://github.com/bkrem/awesome-solidity)
+- [Awesome Smart Contracts](https://github.com/transmute-industries/awesome-smart-contracts)
+
 ### 🎮 Interactive Game Tutorials
 
 - [CryptoZombies](https://cryptozombies.io/en/solidity)
@@ -116,6 +127,18 @@ The community has created this knowledge base to help you **learn** and **grow**
 
 - [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) (Udemy)
 - [Smart Contracts con Solidity de la A a la Z](https://www.udemy.com/course/solidity-a-z/learn/lecture/26791510?start=0#overview) (Udemy) (Spanish)
+- [Smart Contract Engineer](https://www.smartcontract.engineer/)
+
+## 🔒 Security
+
+- [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security) contains curated resources to learn about Ethereum security, and also several useful tools
+- [Not so Smart Contracts](https://github.com/crytic/not-so-smart-contracts) contains examples of common smart contract vulnerabilities, including code from real smart contracts
+- [Smart Contract Security Audits](https://github.com/chainsulting/Smart-Contract-Security-Audits) performed and published by Chainsulting, with all audit reports included
+- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/) is the wargame to learn offensive security of DeFi smart contracts
+
+## Meetups
+
+- [Blockchain 101](https://blockchain101.com/) is a meetup group from NYC that runs a lot of virtual meetups every month, open to everyone remotely!
 
 ## Other helpful resources
 
