@@ -84,3 +84,8 @@
    > Solidity is a curly-bracket language. It is influenced by C++, Python and JavaScript, and is designed to target the Ethereum Virtual Machine (EVM). 
 
    [Learn more from Solidity Docs](https://docs.soliditylang.org/en/v0.8.8/)
+## T
+- What is Truffle ?
+    > Truffle is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
+    
+    [Learn more from Truffle Docs](https://www.trufflesuite.com/docs/truffle/overview)
