@@ -67,6 +67,11 @@
 
     [Learn more from Ethereum Docs](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/)
 
+## R
+ - What is Remix IDE?
+    > Remix IDE is an open source web and desktop application. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. Remix is used for the entire journey of contract development with Solidity language in as well as being a playground for learning and teaching Ethereum. you can switch to  remixid on your browser from here [here](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js) 
+
+    [Learn more from Remix IDE docs](https://remix-ide.readthedocs.io/en/latest/#)
 ## S
 - What is a Smart Contract?
    > A "smart contract" is simply a program that runs on the Ethereum blockchain. It's a collection of code (its functions) and data (its state) that resides at a specific address on the Ethereum blockchain.
@@ -87,5 +92,5 @@
 ## T
 - What is Truffle ?
     > Truffle is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
-    
+
     [Learn more from Truffle Docs](https://www.trufflesuite.com/docs/truffle/overview)
