@@ -17,6 +17,11 @@
 
     [Learn more from Ethereum Docs](https://ethereum.org/en/developers/docs/dapps/)
 
+- What is Defi?
+   > DeFi is a collective term for financial products and services that are accessible to anyone who can use Ethereum – anyone with an internet connection. With DeFi, the markets are always open and there are no centralized authorities who can block payments or deny you access to anything. Services that were previously slow and at risk of human error are automatic and safer now that they're handled by code that anyone can inspect and scrutinize.
+
+   [Learn more aboutr defi from here](https://ethereum.org/en/defi/)
+
 ## E
 - What are ERC Tokens?
     > ERCs (Ethereum Request for Comments) are technical documents used by smart contract developers at Ethereum. They define a set of rules required to implement tokens for the Ethereum ecosystem. These documents are usually created by developers, and they include information about protocol specifications and contract descriptions. Before becoming an standard, an ERC must be revised, commented and accepted by the community through an EIP (Ethereum Improvement Proposal).
@@ -43,6 +48,11 @@
     
     [Learn more from Ethereum Docs](https://ethereum.org/en/developers/docs/intro-to-ethereum/)
 
+- What is Ethereum Virtual Machine (EVM)?
+    > The Ethereum protocol itself exists solely for the purpose of keeping the continuous, uninterrupted, and immutable operation of this special state machine; It's the environment in which all Ethereum accounts and smart contracts live. At any given block in the chain, Ethereum has one and only one 'canonical' state, and the EVM is what defines the rules for computing a new valid state from block to block.
+
+    [Learn more from EVM Docs](https://ethereum.org/en/developers/docs/evm/)
+
 ## F
 - What is a Fungible Token?
     > The ERC-20 introduces a standard for Fungible Tokens, in other words, they have a property that makes each Token be exactly the same (in type and value) of another Token. For example, an ERC-20 Token acts just like the ETH, meaning that 1 Token is and will always be equal to all the other Tokens.
@@ -61,11 +71,20 @@
     
     [Learn more from Hardhat Docs](https://hardhat.org/getting-started/)
 
+## M
+-  What is Metamask?
+
+    > Metamask is a crypto wallet- it allows you to store and transact Ethereum or any other Ethereum-based (ERC- 20) tokens.
+     
+    [Learn more from metamsk docs](https://docs.metamask.io/guide/)
 ## N
 - What is a Non-Fungible Token?
     > A Non-Fungible Token (NFT) is used to identify something or someone in a unique way. This type of Token is perfect to be used on platforms that offer collectible items, access keys, lottery tickets, numbered seats for concerts and sports matches, etc. This special type of Token has amazing possibilities so it deserves a proper Standard, the ERC-721 came to solve that!
 
     [Learn more from Ethereum Docs](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/)
+
+-  What is Nonce?
+    > a counter that indicates the number of transactions sent from the account. This ensures transactions are only processed once. In a contract account, this number represents the number of contracts created by the ac
 
 ## R
  - What is Remix IDE?
@@ -90,6 +109,9 @@
 
    [Learn more from Solidity Docs](https://docs.soliditylang.org/en/v0.8.8/)
 ## T
+- What is a Transaction?
+    >An Ethereum transaction refers to an action initiated by an externally-owned account, in other words an account managed by a human, not a contract. For example, if Bob sends Alice 1 ETH, Bob's account must be debited and Alice's must be credited. This state-changing action takes place within a transaction.
+
 - What is Truffle ?
     > Truffle is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
 
