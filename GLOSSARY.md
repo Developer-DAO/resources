@@ -20,7 +20,7 @@
 - What is Defi?
    > DeFi is a collective term for financial products and services that are accessible to anyone who can use Ethereum – anyone with an internet connection. With DeFi, the markets are always open and there are no centralized authorities who can block payments or deny you access to anything. Services that were previously slow and at risk of human error are automatic and safer now that they're handled by code that anyone can inspect and scrutinize.
 
-   [Learn more aboutr defi from here](https://ethereum.org/en/defi/)
+   [Learn more about DeFi from here](https://ethereum.org/en/defi/)
 
 ## E
 - What are ERC Tokens?
@@ -76,7 +76,7 @@
 
     > Metamask is a crypto wallet- it allows you to store and transact Ethereum or any other Ethereum-based (ERC- 20) tokens.
      
-    [Learn more from metamsk docs](https://docs.metamask.io/guide/)
+    [Learn more from Metamsk Docs](https://docs.metamask.io/guide/)
 ## N
 - What is a Non-Fungible Token?
     > A Non-Fungible Token (NFT) is used to identify something or someone in a unique way. This type of Token is perfect to be used on platforms that offer collectible items, access keys, lottery tickets, numbered seats for concerts and sports matches, etc. This special type of Token has amazing possibilities so it deserves a proper Standard, the ERC-721 came to solve that!
