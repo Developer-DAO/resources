@@ -63,9 +63,6 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [CryptoZombies](https://cryptozombies.io/en/solidity)
 - [Capture the Ether](https://capturetheether.com/)
 
-### 🎓 Courses
-- [_buildspace](https://buildspace.so/) offers free cohort courses around dApps, NFTs, and Solidity development.
-
 ### 🔨 Tools
 
 - [Remix IDE](https://remix.ethereum.org/)
