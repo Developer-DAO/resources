@@ -49,6 +49,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 ### 📖 Books
 
 - [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook), open source book by Andreas M. Antonopoulos and Gavin Wood
+- [Hands-On Smart Contract Development with Solidity and Ethereum](https://www.oreilly.com/library/view/hands-on-smart-contract/9781492045250/), by Kevin Solorio, Randall Kanna, and David H. Hoover
 
 ### 🤯 More Resource Lists
 
