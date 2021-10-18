@@ -129,6 +129,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) (Udemy)
 - [Smart Contracts con Solidity de la A a la Z](https://www.udemy.com/course/solidity-a-z/learn/lecture/26791510?start=0#overview) (Udemy) (Spanish)
 - [Smart Contract Engineer](https://www.smartcontract.engineer/)
+- [SuperHi Crypto + Web 3 for Creatives](https://www.superhi.com/courses/crypto-and-web3-for-creatives)
 
 ## 🔒 Security
 
