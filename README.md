@@ -72,6 +72,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [scaffold-eth](https://github.com/scaffold-eth/scaffold-eth) - 🏗 forkable Ethereum dev stack focused on fast product iterations
 - [eth-hooks](https://github.com/scaffold-eth/eth-hooks) - Commonly used Ethereum hooks to create a web3 application
 - [eth-components](https://github.com/scaffold-eth/eth-components) - React library of commonly used Ethereum components to kickstart your next web3 react app
+- [useDApp](https://usedapp.io/) - Framework for rapid Dapp development. Simple. Robust. Extendable. Testable 
 
 ## Technologies
 
