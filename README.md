@@ -58,6 +58,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Awesome Solidity](https://github.com/bkrem/awesome-solidity)
 - [Awesome Smart Contracts](https://github.com/transmute-industries/awesome-smart-contracts)
 - [Not So Smart Contracts](https://github.com/crytic/not-so-smart-contracts)
+- [useWeb3](https://www.useweb3.xyz/)
 
 ### 🎮 Interactive Game Tutorials
 
