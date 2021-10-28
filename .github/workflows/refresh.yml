@@ -38,6 +38,5 @@ jobs:
       - name: Commit changes
         run: |
           git add RESOURCES.md
-          git status
-        #   git commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
-        #   git push origin || echo 'No changes to commit'
+          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@D_D.com" commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
+          git push origin || echo 'No changes to commit'
