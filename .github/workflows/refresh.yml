@@ -1,0 +1,43 @@
+name: Populate Markdown
+
+on:
+  # actual valid github configuration that would get called
+  # schedule:
+  #   - cron: '0 0 * * *'
+  # workflow_dispatch:
+  # made up hook that i'm testing with act
+  refresh:
+
+jobs:
+  refresh:
+    name: Scheduling
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Enable node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+
+      - name: Install yarn
+        run: npm install -g yarn
+      
+      # hack given that we don't have top-level dependencies
+      - name: Install dependencies
+        run: cd ./.github/actions/generate-resources && yarn install --frozen-lockfile
+
+      - name: Run action
+        uses: ./.github/actions/generate-resources
+
+        # illustrates the change in files. can be removed after development
+      # - name: Check Resources
+      #   run: cat RESOURCES.md
+
+      - name: Commit changes
+        run: |
+          git add RESOURCES.md
+          git status
+        #   git commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
+        #   git push origin || echo 'No changes to commit'

@@ -1,0 +1,12 @@
+{
+  "name": "generate-resources",
+  "version": "0.1.0",
+  "description": "An action to read Developer DAO Airtable and generate Resources.md",
+  "main": "main.js",
+  "author": "Greg <gjsyme@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "airtable": "^0.11.1"
+  }
+}

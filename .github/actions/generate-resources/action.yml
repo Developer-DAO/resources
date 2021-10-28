@@ -1,0 +1,5 @@
+name: 'generate resources'
+description: 'Read Developer DAO Airtable and generate RESOURCES.md'
+runs:
+  using: 'node12'
+  main: 'main.js'
