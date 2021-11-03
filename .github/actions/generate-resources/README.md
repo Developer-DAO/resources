@@ -1,6 +1,6 @@
 # Generate RESOURCES.md Action
 
-This action reads data from the Developer DAO Airtable and puts its content into RESOURCES.md
+This action reads data from the Developer DAO Airtable and puts its content into README.md
 
 ## Inputs
 
@@ -8,10 +8,8 @@ None
 
 ## Outputs
 
-### resourceText
-
-The markdown text that has been generated (to be written to the file)
+None
 
 ## Example Usage
 
-uses: actions/generate-resources@v0.1.x
+uses: ./.github/actions/generate-resources

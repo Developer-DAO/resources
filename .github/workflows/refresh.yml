@@ -25,6 +25,7 @@ jobs:
         run: npm install -g yarn
       
       # hack given that we don't have top-level dependencies
+      # go into the directory and install (resets dir before next command is run)
       - name: Install dependencies
         run: cd ./.github/actions/generate-resources && yarn install --frozen-lockfile
 
