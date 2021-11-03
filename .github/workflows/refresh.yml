@@ -2,11 +2,11 @@ name: Populate Markdown
 
 on:
   # actual valid github configuration that would get called
-  # schedule:
-  #   - cron: '0 0 * * *'
+  schedule:
+    - cron: '0 0 * * *'
   # workflow_dispatch:
   # made up hook that i'm testing with act
-  refresh:
+  # refresh:
 
 jobs:
   refresh:
@@ -31,12 +31,10 @@ jobs:
       - name: Run action
         uses: ./.github/actions/generate-resources
 
-        # illustrates the change in files. can be removed after development
-      # - name: Check Resources
-      #   run: cat RESOURCES.md
-
+      # note the harcode of the repo name. this could be done better if we wanted to use this repeatedly, but seems like a one-off
       - name: Commit changes
         run: |
           git add RESOURCES.md
-          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@D_D.com" commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Developer-DAO/resources
+          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
           git push origin || echo 'No changes to commit'

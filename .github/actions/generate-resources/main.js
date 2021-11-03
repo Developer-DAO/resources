@@ -8,7 +8,7 @@ const AIRTABLE_RESOURCE_BASE = 'appPP6MpO5hrfQwqI';
 // copy pasta from the old README.md
 const RESOURCE_HEADER = `# Resources
 
-Welcome to the [DeveloperDAO](https://github.com/Developer-DAO/developer-dao) **Knowledge Base**.
+Welcome to the [DeveloperDAO](https://github.com/Developer-DAO/developer-dao) **Resource Base**.
 
 The community has created this knowledge base to help you **learn** and **grow** in your Web3 journey, whether you want to start learning about Web3, or you're building your first dApp, or you're deep into the world of solidity.
 
@@ -22,10 +22,13 @@ The community has created this knowledge base to help you **learn** and **grow**
 
 const airtable = new Airtable({ apiKey: AIRTABLE_READONLY_KEY });
 
-let completed = { resources: false, authors: false};
+let completed = { 
+  resources: false, 
+  authors: false
+};
 
 let resourceList = [];
-airtable.base(AIRTABLE_RESOURCE_BASE)('Resources')
+airtable.base(AIRTABLE_RESOURCE_BASE)('Resource')
   .select()
   .eachPage((records, fetchNextPage) => {
     try{
@@ -44,7 +47,7 @@ airtable.base(AIRTABLE_RESOURCE_BASE)('Resources')
   });
 
 let authorList = [];
-airtable.base(AIRTABLE_RESOURCE_BASE)('Authors')
+airtable.base(AIRTABLE_RESOURCE_BASE)('Author')
   .select({})
   .eachPage(
     (records, fetchNextPage) => {
@@ -66,6 +69,8 @@ airtable.base(AIRTABLE_RESOURCE_BASE)('Authors')
     },
   );
 
+// note that blockchains, categories, and tags are also availble but not used in the existing Resources format
+
 const tryProcessData = () => {
   if(completed.authors && completed.resources){
     processData();
@@ -73,13 +78,9 @@ const tryProcessData = () => {
 }
 
 const processData = () => {
-  // console.log('authors',authorList);
-  // console.log('resources',resourceList);
-  const authorMap = {};
   // easy to look up from resource author list
-  authorList.forEach(item => {
-    authorMap[item.id] = item.fields;
-  });
+  const authorMap = {};
+  authorList.forEach(item => { authorMap[item.id] = item.fields });
 
   const resourceString = resourceList.map(item => {
     // convert it to a formatted string
@@ -87,5 +88,5 @@ const processData = () => {
   }).join('\n\n');
 
   let returnString = RESOURCE_HEADER + resourceString;
-  fs.writeFileSync('./RESOURCES.md', returnString);
+  fs.writeFileSync('./README.md', returnString);
 }
