@@ -19,10 +19,7 @@ jobs:
       - name: Enable node
         uses: actions/setup-node@v2
         with:
-          node-version: 14.x
-
-      - name: Install yarn
-        run: npm install -g yarn
+          node-version: 16.x
       
       # hack given that we don't have top-level dependencies
       # go into the directory and install (resets dir before next command is run)
@@ -31,6 +28,9 @@ jobs:
 
       - name: Run action
         uses: ./.github/actions/generate-resources
+
+      - name: Prettier clean up
+        run: ./.github/actions/generate-resources/node_modules/.bin/prettier README.md --write
 
       # note the harcode of the repo name. this could be done better if we wanted to use this repeatedly, but seems like a one-off
       - name: Commit changes
