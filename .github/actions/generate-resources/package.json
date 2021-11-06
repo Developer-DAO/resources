@@ -1,13 +1,13 @@
 {
   "name": "generate-resources",
   "version": "0.2.0",
-  "description": "An action to read Developer DAO Airtable and generate Resources.md",
+  "description": "An action to read Developer DAO Airtable and generate README.md",
   "main": "main.js",
   "author": "@gjsyme",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node main.js --run && ./node_modules/.bin/prettier README.md --write",
+    "start": "node main.js && ./node_modules/.bin/prettier README.md --write",
     "test": "jest",
     "prettier": "./node_modules/.bin/prettier . --write"
   },

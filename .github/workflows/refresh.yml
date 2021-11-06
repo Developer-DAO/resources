@@ -4,9 +4,6 @@ on:
   # actual valid github configuration that would get called
   schedule:
     - cron: '0 0 * * *'
-  # workflow_dispatch:
-  # made up hook that i'm testing with act
-  # refresh:
 
 jobs:
   refresh:
@@ -20,6 +17,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 16.x
+
+      - name: Install Yarn
+        run: npm i -g yarn
       
       # hack given that we don't have top-level dependencies
       # go into the directory and install (resets dir before next command is run)
@@ -35,7 +35,7 @@ jobs:
       # note the harcode of the repo name. this could be done better if we wanted to use this repeatedly, but seems like a one-off
       - name: Commit changes
         run: |
-          git add RESOURCES.md
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Developer-DAO/resources
-          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
+          git add README.md
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/developer-DAO/resources
+          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh README.md from Airtable' || echo 'No changes to commit'
           git push origin || echo 'No changes to commit'
