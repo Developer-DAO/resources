@@ -42,6 +42,11 @@ The community has created this knowledge base to help you **learn** and **grow**
   Author: Catherine David
   Learn how to build an NFT program in Solana
 
+- [A Guide to Designing Effective NFT Launches](https://www.paradigm.xyz/2021/10/a-guide-to-designing-effective-nft-launches/)
+
+  Authors: Hasu,Anish Agnihotri
+  Deconstruct bad launches to determine what a good launch needs, breaks down the steps of a launch, and provides a reference implementation of a well designed launch.
+
 - [How To Dockerize Your Hardhat Solidity Contract On Localhost](https://codingwithmanny.medium.com/how-to-dockerize-your-hardhat-solidity-contract-on-localhost-a45424369896)
 
   Author: Manny
@@ -55,6 +60,11 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Solana Core Concepts (Community Video)](https://www.youtube.com/watch?v=4dNuMXBjpr0)
 
   Author: Solana
+
+- [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/)
+
+  Author: Stephen Grider
+  Use Ethereum, Solidity, and Smart Contracts to build production-ready apps based on the blockchain
 
 - [How to Debug Pending Ethereum Transactions](https://blog.alchemy.com/blog/how-to-debug-pending-ethereum-transactions)
 
