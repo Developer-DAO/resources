@@ -2,4 +2,4 @@ name: 'generate resources'
 description: 'Read Developer DAO Airtable and generate README.md'
 runs:
   using: 'node12'
-  main: 'main.js'
+  main: 'init.js'
