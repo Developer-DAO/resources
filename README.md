@@ -59,6 +59,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Awesome Smart Contracts](https://github.com/transmute-industries/awesome-smart-contracts)
 - [Not So Smart Contracts](https://github.com/crytic/not-so-smart-contracts)
 - [useWeb3](https://www.useweb3.xyz/)
+- [Open source web3 develop tutorial](https://github.com/ConsenSys-Academy/Blockchain-Developer-Bootcamp)
 
 ### 🎮 Interactive Game Tutorials
 
