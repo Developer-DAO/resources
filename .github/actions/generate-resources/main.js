@@ -49,6 +49,27 @@ const fetchAirtableData = async (tableName) => {
 };
 
 /**
+ * 
+ * @param {*} authorTwitter a string containing the twitter handle possibly with other undesired content
+ * @returns the string twitter handler from the input
+ */
+const cleanTwitterString = (authorTwitter) => {
+  if (!authorTwitter) return;
+  // prevent casing weirdness and ensure lowercasae for checking
+  const compare = authorTwitter.toLowerCase();
+  // lazy, ifs for the common distortions
+  // either the '.com/' construct or starting with @
+  if (compare.indexOf('twitter.com') > -1) {
+    const comIndex = compare.indexOf('.com/') + 5;
+    return authorTwitter.substring(comIndex, authorTwitter.length);
+  }
+  if (compare.startsWith('@')) {
+    return authorTwitter.substring(1, authorTwitter.length);
+  }
+  return authorTwitter;
+};
+
+/**
  *
  */
 const init = async () => {
@@ -60,9 +81,24 @@ const init = async () => {
   const authorMap = {};
   authorsData.forEach((item) => {
     if (item?.id && item?.fields) { 
-      authorMap[item.id] = item.fields;
+      authorMap[item.id] = {
+        ...item.fields,
+        Twitter: cleanTwitterString(item.fields.Twitter)
+      }
     }
   });
+
+  /**
+   * 
+   * @param {Author} author the airtable author, notably included Name and optional Twitter value
+   * returns the string (markdown) value for the author
+   */
+  const buildAuthorText = (author) => {
+    if(author.Twitter){
+      return `[${author.Name ?? 'No name given'}](https://twitter.com/${author.Twitter})`;
+    }
+    return author.Name ?? '';
+  }
 
   // Build markdown body
   const README_RESOURCE_BODY = resourcesData
@@ -70,8 +106,8 @@ const init = async () => {
       (item) =>
         `- [${item?.fields?.Title}](${item?.fields?.Source})\n\n  Author${
           item?.fields?.Author?.length > 1 ? 's' : ''
-        }: ${item?.fields?.Author?.map((authorId) => authorMap[authorId]?.Name ?? '')}${
-          item?.fields?.Summary ? '\n' + item?.fields?.Summary : ''
+        }: ${item?.fields?.Author?.map((authorId) => buildAuthorText(authorMap[authorId]))}${
+          item?.fields?.Summary ? '\n\n' + item?.fields?.Summary : ''
         }`
     )
     .join('\n\n');
