@@ -103,17 +103,36 @@ const init = async () => {
     return author.Name ?? '';
   }
 
+  const buildSection = (title, resourceList) => {
+    let resource_string = `##${title}\n\n`;
+    return resource_string.concat(resourceList.map(
+        (item) => (
+          `- [${item?.fields?.Title}](${item?.fields?.Source})\n\n  Author${
+            item?.fields?.Author?.length > 1 ? 's' : ''
+          }: ${item?.fields?.Author?.map((authorId) => buildAuthorText(authorMap[authorId]))}${
+            item?.fields?.Summary ? '\n\n  ' + item?.fields?.Summary : ''
+          }`
+        )
+      )
+      .join('\n\n')
+    );
+  }
+
   // Build markdown body
-  const README_RESOURCE_BODY = resourcesData
-    .map(
-      (item) =>
-        `- [${item?.fields?.Title}](${item?.fields?.Source})\n\n  Author${
-          item?.fields?.Author?.length > 1 ? 's' : ''
-        }: ${item?.fields?.Author?.map((authorId) => buildAuthorText(authorMap[authorId]))}${
-          item?.fields?.Summary ? '\n\n' + item?.fields?.Summary : ''
-        }`
-    )
-    .join('\n\n');
+  // const README_RESOURCE_BODY = resourcesData
+  //   .map(
+  //     (item) =>
+  //       `- [${item?.fields?.Title}](${item?.fields?.Source})\n\n  Author${
+  //         item?.fields?.Author?.length > 1 ? 's' : ''
+  //       }: ${item?.fields?.Author?.map((authorId) => buildAuthorText(authorMap[authorId]))}${
+  //         item?.fields?.Summary ? '\n\n' + item?.fields?.Summary : ''
+  //       }`
+  //   )
+  //   .join('\n\n');
+  const README_RESOURCE_BODY = 
+    buildSection('Beginner', resourcesData.filter((item) => item.fields?.Level==='Beginner'))+'\n\n'
+    + buildSection('Intermediate', resourcesData.filter((item) => item.fields?.Level==='Intermediate'))+'\n\n'
+    + buildSection('Expert', resourcesData.filter((item) => item.field?.Level==='Expert'))+'\n\n';
   console.log(
     'writing to ./README.md',
     README_RESOURCE_HEADER,

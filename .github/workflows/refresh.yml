@@ -36,6 +36,6 @@ jobs:
       - name: Commit changes
         run: |
           git add README.md
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/developer-DAO/resources
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/developer-dao/resources
           git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh README.md from Airtable' || echo 'No changes to commit'
           git push origin || echo 'No changes to commit'
