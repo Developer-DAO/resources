@@ -84,6 +84,11 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.8/index.html)
 - [Truffle Suite Documentation](https://www.trufflesuite.com/docs)
 
+## Dorage (Decentralized Storage)
+- [IPFS](https://ipfs.io/)
+- [Arweave](https://www.arweave.org/)
+- [Filecoin](https://filecoin.io/)
+
 ### Solana
 
 - [Solana Developer Resources](https://github.com/CristinaSolana/solana-developer-resources)
@@ -118,6 +123,10 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Solidity by Example](https://solidity-by-example.org/)
 
   Summary and examples of most common Solidity functions, use-cases, real smart contracts, and more.
+  
+- [ProtoSchool](https://proto.school/)
+
+  Interactive tutorials on decentralized web protocols
 
 - [Questbook](https://questbook.notion.site/Questbook-Learn-Web3-a5f4be8b107f4647a91fe84e6aa7e722)
 
