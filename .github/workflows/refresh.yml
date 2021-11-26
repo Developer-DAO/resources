@@ -1,0 +1,41 @@
+name: Populate Markdown
+
+on:
+  # actual valid github configuration that would get called
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  refresh:
+    name: Scheduling
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Enable node
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
+      - name: Install Yarn
+        run: npm i -g yarn
+      
+      # hack given that we don't have top-level dependencies
+      # go into the directory and install (resets dir before next command is run)
+      - name: Install dependencies
+        run: cd ./.github/actions/generate-resources && yarn install --frozen-lockfile
+
+      - name: Run action
+        uses: ./.github/actions/generate-resources
+
+      - name: Prettier clean up
+        run: ./.github/actions/generate-resources/node_modules/.bin/prettier RESOURCES.md --write
+
+      # note the harcode of the repo name. this could be done better if we wanted to use this repeatedly, but seems like a one-off
+      - name: Commit changes
+        run: |
+          git add RESOURCES.md
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
+          git push origin || echo 'No changes to commit'
