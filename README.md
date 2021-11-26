@@ -94,6 +94,19 @@ The community has created this knowledge base to help you **learn** and **grow**
 
 - [Solana Developer Resources](https://github.com/CristinaSolana/solana-developer-resources)
 
+### Layer 2 Rollups
+
+Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the security guarantees of mainnet while increasing the transaction throughput and affordability of using Ethereum. Two main types of solutions exist, Optimistic Rollups and Zero-Knowledge Rollups. Below are some resources for learning more and getting started.
+
+- [Rollups Overview](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
+- [Optimism Developer Documentation](https://community.optimism.io/docs/)
+- [Truffle Optimism Box](https://github.com/truffle-box/optimism-box)
+- [Arbitrum Developer Documentation](https://developer.offchainlabs.com/docs/developer_quickstart)
+- [Truffle Arbitrum Box](https://github.com/truffle-box/arbitrum-box)
+- [Starknet](https://starkware.co/starknet/)
+- [Tutorial Using Starknet with Nile](https://medium.com/coinmonks/starknet-tutorial-for-beginners-using-nile-6af9c2270c15)
+- [zkSync Developer Documentation](https://zksync.io/dev/)
+
 ## Use Cases
 
 ### DeFi
