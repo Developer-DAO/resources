@@ -71,6 +71,13 @@
     
     [Learn more from Hardhat Docs](https://hardhat.org/getting-started/)
 
+## L
+
+- What is Layer 2?
+  > Layer 2 is a collective term for solutions designed to help scale your application by handling transactions off the Ethereum Mainnet (Layer 1) while taking advantage of the robust decentralized security model of Mainnet.
+
+  [Learn more from ethereum.org](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
+
 ## M
 -  What is Metamask?
 
