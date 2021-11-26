@@ -30,12 +30,12 @@ jobs:
         uses: ./.github/actions/generate-resources
 
       - name: Prettier clean up
-        run: ./.github/actions/generate-resources/node_modules/.bin/prettier README.md --write
+        run: ./.github/actions/generate-resources/node_modules/.bin/prettier RESOURCES.md --write
 
       # note the harcode of the repo name. this could be done better if we wanted to use this repeatedly, but seems like a one-off
       - name: Commit changes
         run: |
-          git add README.md
+          git add RESOURCES.md
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh README.md from Airtable' || echo 'No changes to commit'
+          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
           git push origin || echo 'No changes to commit'

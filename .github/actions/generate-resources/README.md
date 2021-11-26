@@ -1,6 +1,6 @@
 # Generate RESOURCES.md Action
 
-This action reads data from the Developer DAO Airtable and puts its content into README.md.
+This action reads data from the Developer DAO Airtable and puts its content into RESOURCES.md.
 
 ## Authors
 
@@ -25,7 +25,7 @@ yarn test;
 
 ## How To Run Locally
 
-**NOTE:** `DO NOT` run this from within the `actions/generate-resources` folder, it will overwrite this `README.md`.
+**NOTE:** `DO NOT` run this from within the `actions/generate-resources` folder, it will overwrite this `RESOURCES.md`.
 
 **NOTE:** You need to have the [nektos/act](https://github.com/nektos/act) cli on your system for this to work as it has been developed
 Once installed, you can call the below command.
@@ -64,15 +64,15 @@ jobs:
         uses: ./.github/actions/generate-resources
 
       - name: Prettier clean up
-        run: ./.github/actions/generate-resources/node_modules/.bin/prettier README.md --write
+        run: ./.github/actions/generate-resources/node_modules/.bin/prettier RESOURCES.md --write
 
       # note the harcode of the repo name. this could be done better if we wanted to use this repeatedly, but seems like a one-off
       # if you're testing, make sure that the repo organization and repo name (gjsyme and resources, respectively, here) are replaced by something
       # that something needs to be writable by a user with your permissions (from your GH token)
       - name: Commit changes
         run: |
-          git add README.md
+          git add RESOURCES.md
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/gjsyme/resources
-          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh README.md from Airtable' || echo 'No changes to commit'
+          git -c user.name="D_D RESOURCE BOT" -c user.email="resource_bot@users.noreply.github.com" commit -m 'Refresh RESOURCES.md from Airtable' || echo 'No changes to commit'
           git push origin || echo 'No changes to commit'
 ```

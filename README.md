@@ -1,176 +1,181 @@
 # Resources
-Welcome to the [DeveloperDAO](https://github.com/Developer-DAO/developer-dao) **Resource Base**.
+
+Welcome to the [DeveloperDAO](https://github.com/Developer-DAO/developer-dao) **Knowledge Base**.
+
 The community has created this knowledge base to help you **learn** and **grow** in your Web3 journey, whether you want to start learning about Web3, or you're building your first dApp, or you're deep into the world of solidity.
+
 ## Terminology
+
 - Visit the [Glossary](GLOSSARY.md) to understand more about a specific term.
-## Resources
-##Beginner
 
-- [Solana: How to send custom instructions via instruction data](https://dev.to/cogoo/solana-how-to-send-custom-instructions-via-instruction-data-4g9g)
+## Getting Started with Web3 Development
 
-  Author: [Colin Ogoo](https://twitter.com/c_ogoo)
+### 💡 Learning about Web3
 
-  Walk through the process of sending a custom instruction to a solana on-chain program. We'll modify the solana example helloworld to take two instructions, SayHello and SayGoodbye.
+- [What is Web3? The Decentralized Internet of the Future Explained](https://www.freecodecamp.org/news/what-is-web3/)
+- [How to Break into Ethereum, Crypto, and Web3 as a Developer](https://www.freecodecamp.org/news/breaking-into-ethereum-crypto-web3-as-a-developer/)
 
-- [How to write your first decentralized app - scaffold-eth Challenge 1: Staking dApp](https://dev.to/stermi/scaffold-eth-challenge-1-staking-dapp-4ofb)
-
-  Author: [Emanuele Ricci](https://twitter.com/StErMi)
-
-- [Solidity, Blockchain, and Smart Contract Course – Beginner to Expert Python Tutorial](https://www.youtube.com/watch?v=M576WGiDBdQ&ab_channel=freeCodeCamp.org)
-
-  Author: [FreeCodeCamp](https://twitter.com/freeCodeCamp)
-
-  This course will give you a full introduction into all of the core concepts in blockchain, smart contracts, solidity, NFTs/ERC721s, ERC20s, Coding Decentralized Finance (DeFi), python and solidity, Chainlink, Ethereum, upgradable smart contracts, and full stack blockchain development. 
-
-- [How to create an ERC20 Token and a Solidity Vendor Contract to sell/buy your own token](https://dev.to/stermi/how-to-create-an-erc20-token-and-a-solidity-vendor-contract-to-sell-buy-your-own-token-4j1m)
-
-  Author: [Emanuele Ricci](https://twitter.com/StErMi)
-
-  A walkthrough of the Scaffold ETH challenge to create a Token Vendor contract.
-
-- [Building a Solana NFT](https://procgen.ai/update/solana/rust/2021/10/03/glitch-punks.html)
-
-  Author: [Catherine David](https://twitter.com/miscatulated)
-
-  Learn how to build an NFT program in Solana
-
-- [The Ultimate Guide To Getting Started With NFTs](https://www.tomhirst.com/getting-started-with-nfts)
-
-  Author: [Tom Hirst](https://twitter.com/tom_hirst)
-
-  Whether you’re interested in starting an NFT art collection, trading NFTs like stocks, developing smart contracts for NFT projects, involving yourself in the NFT community or want to understand more about the NFT space, this guide will offer you a valuable entry point.
-
-- [Solana Core Concepts (Community Video)](https://www.youtube.com/watch?v=4dNuMXBjpr0)
-
-  Author: Solana
-
-  An easy to digest overview of the core concepts of the Solana Blockchain.
-
-- [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/)
-
-  Author: [Stephen Grider](https://twitter.com/ste_grider)
-
-  Use Ethereum, Solidity, and Smart Contracts to build production-ready apps based on the blockchain
-
-- [How to make your very own cryptocurrency (deploy your first smart contract!)](https://blog.mcgee.cat/how-to-make-your-very-own-cryptocurrency-deploy-your-first-smart-contract)
-
-  Author: [Cat McGee](https://twitter.com/CatMcGeeCode)
-
-  Walkthrough on how to create and deploy a ERC-20 token
-
-- [Building a Blockchain in Go PT: I - The Hello World of Blockchains](https://dev.to/nheindev/build-the-hello-world-of-blockchain-in-go-bli)
-
-  Author: [Noah Hein](https://twitter.com/NHeinDev)
-
-  A tutorial on how to build a "Hello World" blockchain in Go
-
-- [Hello World! An Introduction To Solidity Smart Contracts](https://blog.paulmcaviney.ca/hello-world)
-
-  Author: [Paul McAviney](https://twitter.com/paul_can_code)
-
-  Write a hello world smart contract in Solidity
-
-- [Solana 101](https://2501babe.github.io/posts/solana101.html)
-
-  Author: [hana](https://twitter.com/dumbcontract2)
-
-- [Solana teardown: Walkthrough of the example helloworld program](https://dev.to/cogoo/solana-teardown-walkthrough-of-the-example-helloworld-program-18m4)
-
-  Author: [Colin Ogoo](https://twitter.com/c_ogoo)
-
-  Walk through the helloworld Rust program line-by-line and begin to unpack how programs on Solana work.
-
-- [The Complete Guide to Full Stack Solana Development with React, Anchor, Rust, and Phantom](https://dev.to/dabit3/the-complete-guide-to-full-stack-solana-development-with-react-anchor-rust-and-phantom-3291)
-
-  Author: Nader Dabit
-
-- [Learning How to Build on Solana](https://www.brianfriel.xyz/learning-how-to-build-on-solana/)
-
-  Author: [Brian Friel](https://twitter.com/bfriel_)
-
-  An introductory tour to writing applications on Solana, built with the Anchor framework and React.
+### 📄 Tutorials
 
 - [The Complete Guide to Full Stack Ethereum Development](https://dev.to/dabit3/the-complete-guide-to-full-stack-ethereum-development-3j13)
 
-  Author: Nader Dabit
+  This guide by [Nader Dabit](https://github.com/dabit3) is especially useful for Web2 devs and provides a basic understanding of building a full stack dApp from end-to-end using technologies including Hardhat, Solidity, Ethers.js, The Graph, and React.
 
-  Tutorial from Nader Dabit on how to build Full Stack dApps with React, Ethers.js, and Hardhat.
+- [How to write your first decentralized app - scaffold-eth Challenge 1: Staking dApp](https://dev.to/stermi/scaffold-eth-challenge-1-staking-dapp-4ofb)
 
-##Intermediate
+  This guide by [Emanuele Ricci](https://twitter.com/StErMi) will cover in depth the first speed run challenge from scaffold-eth. Inside you will find web3/solidity concepts, explanations and detailed code review.
 
-- [JSON RPC API](https://docs.solana.com/developing/clients/jsonrpc-api)
+- [How to create an ERC20 Token and a Solidity Vendor Contract to sell/buy your own token](https://dev.to/stermi/how-to-create-an-erc20-token-and-a-solidity-vendor-contract-to-sell-buy-your-own-token-4j1m)
 
-  Author: Solana
+  This guide by [Emanuele Ricci](https://twitter.com/StErMi) will cover in depth the second speed run challenge from scaffold-eth. Inside you will find web3/solidity concepts, explanations and detailed code review.
 
-  The only way to get information from the Solana Blockchain, these docs lay out the JSON RPC API, which all of the SDKs wrap.
+- [How to deploy your first smart contract on Ethereum with Solidity and Hardhat](https://dev.to/stermi/how-to-deploy-your-first-smart-contract-on-ethereum-with-solidity-and-hardhat-5efc)
 
-- [A Guide to Private Ethereum Mining with Geth (Go-Ethereum)](https://dev.to/heydamali/a-guide-to-private-ethereum-mining-with-geth-go-ethereum-13ol)
+  This guide by [Emanuele Ricci](https://twitter.com/StErMi) will cover how to configure Hardhat to compile, deploy test and debug a Solidity project. You will learn to create a smart contract, test it with Waffle, deploy it on Rinkeby and get it verified by Etherscan.
 
-  Author: [Arinze](https://twitter.com/heydamali)
+### 📺 Content Creator Channels
 
-  Walk through the process of setting up a single node, private Ethereum blockchain using the Geth client. The purpose of this guide is to help readers understand how the blockchain works from the miners' perspective and what goes into the mining process
+- [Nader Dabit on YouTube](https://www.youtube.com/c/naderdabit)
+- [Austin Griffith on YouTube](https://www.youtube.com/channel/UC_HI2i2peo1A-STdG22GFsA)
+- [Patrick Collins on YouTube](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
+- [Whiteboard Crypto on YouTube](https://www.youtube.com/channel/UCsYYksPHiGqXHPoHI-fm5sg)
+- [EatTheBlock on YouTube](https://www.youtube.com/c/EatTheBlocks)
 
-- [Capture The Ether](https://capturetheether.com/)
+### 📚 Docs
 
-  Author: [Steve Marx](https://twitter.com/smarx)
+- [Ethereum Development Documentation](https://ethereum.org/en/developers/docs/)
+- [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.8/index.html)
+- [Solidity By Example](https://docs.soliditylang.org/en/v0.8.8/solidity-by-example.html)
 
-  Capture the Ether is a game in which you hack Ethereum smart contracts to learn about security. It's meant to be both fun and educational.
+### 📖 Books
 
-- [How To Dockerize Your Hardhat Solidity Contract On Localhost](https://codingwithmanny.medium.com/how-to-dockerize-your-hardhat-solidity-contract-on-localhost-a45424369896)
+- [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook), open source book by Andreas M. Antonopoulos and Gavin Wood
+- [Hands-On Smart Contract Development with Solidity and Ethereum](https://www.oreilly.com/library/view/hands-on-smart-contract/9781492045250/), by Kevin Solorio, Randall Kanna, and David H. Hoover
 
-  Author: [Manny](https://twitter.com/codingwithmanny)
+### 🤯 More Resource Lists
 
-  How To Take Your Web3 Solidity Contract With Hardhat & Create A Docker Image With The Local Deployment
+- [Solidity cheatsheet and best practices](https://github.com/manojpramesh/solidity-cheatsheet)
+- [Solidity gotchas, pitfalls, limitations, and idiosyncrasies](https://github.com/miguelmota/solidity-idiosyncrasies)
+- [Awesome Solidity](https://github.com/bkrem/awesome-solidity)
+- [Awesome Smart Contracts](https://github.com/transmute-industries/awesome-smart-contracts)
+- [Not So Smart Contracts](https://github.com/crytic/not-so-smart-contracts)
+- [useWeb3](https://www.useweb3.xyz/)
 
-- [5 Solidity Code Smells That Every Blockchain Developer Should Know](https://medium.com/coinmonks/5-solidity-code-smells-87bb2f259dde)
+### 🎮 Interactive Game Tutorials
 
-  Author: [Jackson Kelley](https://twitter.com/sjkelleyjr)
+- [CryptoZombies](https://cryptozombies.io/en/solidity)
+- [Capture the Ether](https://capturetheether.com/)
 
-  Five issues to watch for when creating a Solidity smart contract. Each smell has links to related challenges for practice.
+### 🔨 Tools
 
-- [Ethernaut](https://ethernaut.openzeppelin.com/)
+- [Remix IDE](https://remix.ethereum.org/)
+- [ETH.Build](https://eth.build/)
+- [Etherscan](https://etherscan.io/)
+- [scaffold-eth](https://github.com/scaffold-eth/scaffold-eth) - 🏗 forkable Ethereum dev stack focused on fast product iterations
+- [eth-hooks](https://github.com/scaffold-eth/eth-hooks) - Commonly used Ethereum hooks to create a web3 application
+- [eth-components](https://github.com/scaffold-eth/eth-components) - React library of commonly used Ethereum components to kickstart your next web3 react app
+- [useDApp](https://usedapp.io/) - Framework for rapid Dapp development. Simple. Robust. Extendable. Testable 
 
-  Author: [Open Zeppelin](https://twitter.com/OpenZeppelin)
+## Technologies
 
-  The Ethernaut is a Web3/Solidity based wargame inspired on overthewire.org, played in the Ethereum Virtual Machine. Each level is a smart contract that needs to be 'hacked'.
+### Ethereum
 
-- [How to Debug Pending Ethereum Transactions](https://blog.alchemy.com/blog/how-to-debug-pending-ethereum-transactions)
+- [Ethereum Development Documentation](https://ethereum.org/en/developers/docs/)
+- [Hardhat Documentation](https://hardhat.org/getting-started/)
+- [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.8/index.html)
+- [Truffle Suite Documentation](https://www.trufflesuite.com/docs)
 
-  Author: [Alchemy Team](https://twitter.com/AlchemyPlatform )
+## Dorage (Decentralized Storage)
+- [IPFS](https://ipfs.io/)
+- [Arweave](https://www.arweave.org/)
+- [Filecoin](https://filecoin.io/)
 
-  A deep dive into the flow of a transaction on the Ethereum network, from the moment you hit “send” to the point when the transaction becomes fully mined. 
+### Solana
 
-- [How to apply TDD when writing an Ethereum smart contract with Solidity](https://medium.com/@fabientownsend/how-to-apply-tdd-when-writing-an-ethereum-smart-contract-with-solidity-1e4b227a84aa)
+- [Solana Developer Resources](https://github.com/CristinaSolana/solana-developer-resources)
 
-  Author: [Fabien Townsend](https://twitter.com/FabienTownsend)
+### Layer 2 Rollups
 
-  Introduction on how to use TDD when writing an ETH smart contract
+Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the security guarantees of mainnet while increasing the transaction throughput and affordability of using Ethereum. Two main types of solutions exist, Optimistic Rollups and Zero-Knowledge Rollups. Below are some resources for learning more and getting started.
 
-- [Understanding Program Derived Addresses](https://www.brianfriel.xyz/understanding-program-derived-addresses/)
+- [Rollups Overview](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
+- [Optimism Developer Documentation](https://community.optimism.io/docs/)
+- [Truffle Optimism Box](https://github.com/truffle-box/optimism-box)
+- [Arbitrum Developer Documentation](https://developer.offchainlabs.com/docs/developer_quickstart)
+- [Truffle Arbitrum Box](https://github.com/truffle-box/arbitrum-box)
+- [Starknet](https://starkware.co/starknet/)
+- [Tutorial Using Starknet with Nile](https://medium.com/coinmonks/starknet-tutorial-for-beginners-using-nile-6af9c2270c15)
+- [zkSync Developer Documentation](https://zksync.io/dev/)
 
-  Author: [Brian Friel](https://twitter.com/bfriel_)
+## Use Cases
 
-  A practical overview of how Solana programs read and write data.
+### DeFi
 
-- [Secureum - Ethereum Security Concepts](https://secureum.substack.com/)
+- Examples:
+  - [UniSwap](https://uniswap.org/)
 
-  Author: [0xRajeev](https://twitter.com/0xRajeev)
+### NFT Marketplaces
 
-  Ethereum security focused substack developed as part of the Secureum Smart Contract Auditing bootcamp in partnership with the major auditing firms and the Ethereum foundation. Each chapter is formated as a list, each containing a description of 100 title related concepts.
+- Examples:
+  - [OpenSea](https://opensea.io/)
+- Tutorials:
+  - [Building a Full Stack NFT Marketplace on Ethereum with Polygon](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb)
 
-- [Building GraphQL APIs on Ethereum](https://dabit3.medium.com/building-graphql-apis-on-ethereum-427ed363df17)
+### Games
 
-  Author: Nader Dabit
+- Examples:
+  - [CryptoKitties](https://www.cryptokitties.co/)
+  - [LootWars](https://lootwars.xyz/)
 
-  How to use the Graph protocol to build GraphQL APIs on top of the blockchain.
+## Courses
 
-- [Serverless and blockchain: check NFT supply with AWS Lambda](https://dev.to/dashbird/serverless-and-blockchain-check-nft-supply-with-aws-lambda-5d0f)
+### Free Courses
+- [Buildspace](https://buildspace.so) 
 
-  Author: [Kayis](https://twitter.com/K4y1s)
+  Action-oriented and community-driven course platform. Learn how to build a simple dApp or mint your own NFTs in just hours. (More courses later)
 
-  Build a serverless system to query the Ethereum blockchain for NFT data
+- [Solidity by Example](https://solidity-by-example.org/)
 
-##Expert
+  Summary and examples of most common Solidity functions, use-cases, real smart contracts, and more.
+  
+- [ProtoSchool](https://proto.school/)
 
+  Interactive tutorials on decentralized web protocols
 
+- [Questbook](https://questbook.notion.site/Questbook-Learn-Web3-a5f4be8b107f4647a91fe84e6aa7e722)
 
+  Questbook is a Decentralized University where learning web3 is always free
+  
+ - [FreeCodeCamp's Solidity Tutorial](https://www.youtube.com/embed/M576WGiDBdQ)
+
+   Comprehensive introduction to main Solidity concepts (+blockchain/smart contracts) everyone needs to start writing their own ERC720 and ERC20 tokens, dApps, and more.  
+
+### Paid Courses
+
+- [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) (Udemy)
+- [Smart Contracts con Solidity de la A a la Z](https://www.udemy.com/course/solidity-a-z/learn/lecture/26791510?start=0#overview) (Udemy) (Spanish)
+- [Smart Contract Engineer](https://www.smartcontract.engineer/)
+- [SuperHi Crypto + Web 3 for Creatives](https://www.superhi.com/courses/crypto-and-web3-for-creatives)
+
+## 🔒 Security
+
+- [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security) contains curated resources to learn about Ethereum security, and also several useful tools
+- [Not so Smart Contracts](https://github.com/crytic/not-so-smart-contracts) contains examples of common smart contract vulnerabilities, including code from real smart contracts
+- [Smart Contract Security Audits](https://github.com/chainsulting/Smart-Contract-Security-Audits) performed and published by Chainsulting, with all audit reports included
+- [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/) is the wargame to learn offensive security of DeFi smart contracts
+
+## Meetups
+
+- [Blockchain 101](https://blockchain101.com/) is a meetup group from NYC that runs a lot of virtual meetups every month, open to everyone remotely!
+
+## Other helpful resources
+
+- [OpenZeppelin](https://openzeppelin.com/contracts/)
+
+  Security standards and tools to build safe smart contracts on Solidity. Free for anyone to use.
+
+## Contributing
+
+Thanks for showing interest in contributing to DeveloperDAO's Resources page.
+
+Before submitting any changes please review our contributing gudielines in [CONTRIBUTING.md](./CONTRIBUTING.md).

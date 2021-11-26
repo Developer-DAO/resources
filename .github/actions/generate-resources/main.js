@@ -6,15 +6,10 @@ const fs = require('fs');
 // Constants
 // ========================================================
 // airtable resources managed by @kempsterrrr
+// these should be replaced by secrets other than these values
 const AIRTABLE_READONLY_KEY = 'keyDaaDlZelNrerXQ';
 const AIRTABLE_RESOURCE_BASE = 'appPP6MpO5hrfQwqI';
-const README_RESOURCE_HEADER = `# Resources
-Welcome to the [DeveloperDAO](https://github.com/Developer-DAO/developer-dao) **Resource Base**.
-The community has created this knowledge base to help you **learn** and **grow** in your Web3 journey, whether you want to start learning about Web3, or you're building your first dApp, or you're deep into the world of solidity.
-## Terminology
-- Visit the [Glossary](GLOSSARY.md) to understand more about a specific term.
-## Resources
-`;
+const RESOURCE_HEADER = `# Resources\n\n`;
 
 // Config
 // ========================================================
@@ -104,7 +99,7 @@ const init = async () => {
   }
 
   const buildSection = (title, resourceList) => {
-    let resource_string = `##${title}\n\n`;
+    let resource_string = `## ${title}\n\n`;
     return resource_string.concat(resourceList.map(
         (item) => (
           `- [${item?.fields?.Title}](${item?.fields?.Source})\n\n  Author${
@@ -118,20 +113,20 @@ const init = async () => {
     );
   }
 
-  const README_RESOURCE_BODY = 
+  const RESOURCE_BODY = 
     buildSection('Beginner', resourcesData.filter((item) => item.fields?.Level==='Beginner'))+'\n\n'
     + buildSection('Intermediate', resourcesData.filter((item) => item.fields?.Level==='Intermediate'))+'\n\n'
-    + buildSection('Expert', resourcesData.filter((item) => item.field?.Level==='Expert'))+'\n\n';
+    + buildSection('Advanced', resourcesData.filter((item) => item.fields?.Level==='Advanced'))+'\n\n';
   console.log(
-    'writing to ./README.md',
-    README_RESOURCE_HEADER,
-    README_RESOURCE_BODY,
+    'writing to ./RESOURCES.md',
+    RESOURCE_HEADER,
+    RESOURCE_BODY,
   );
 
-  // Write README.md file
+  // Write RESOURCES.md file
   fs.writeFileSync(
-    './README.md',
-    `${README_RESOURCE_HEADER}${README_RESOURCE_BODY}`,
+    './RESOURCES.md',
+    `${RESOURCE_HEADER}${RESOURCE_BODY}`,
   );
 };
 
@@ -142,5 +137,5 @@ module.exports = {
   init,
   AIRTABLE_READONLY_KEY,
   AIRTABLE_RESOURCE_BASE,
-  README_RESOURCE_HEADER,
+  RESOURCE_HEADER,
 };
