@@ -33,6 +33,10 @@ The community has created this knowledge base to help you **learn** and **grow**
 
   This guide by [Emanuele Ricci](https://twitter.com/StErMi) will cover how to configure Hardhat to compile, deploy test and debug a Solidity project. You will learn to create a smart contract, test it with Waffle, deploy it on Rinkeby and get it verified by Etherscan.
 
+- [How to deploy your first NFT contract on Ethereum][https://docs.alchemy.com/alchemy/tutorials/how-to-create-an-nft]
+
+  This guide could tell you how to write and deploy NFT contract, also it could help you to run front-end about minting your deployed contract. Could choose Truffle or Hardhat. And this tutorial could teach you how to mint NFT by script.
+
 ### 📺 Content Creator Channels
 
 - [Nader Dabit on YouTube](https://www.youtube.com/c/naderdabit)
@@ -86,6 +90,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Truffle Suite Documentation](https://www.trufflesuite.com/docs)
 
 ## Dorage (Decentralized Storage)
+
 - [IPFS](https://ipfs.io/)
 - [Arweave](https://www.arweave.org/)
 - [Filecoin](https://filecoin.io/)
@@ -130,6 +135,7 @@ Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the s
 ## Courses
 
 ### Free Courses
+
 - [Buildspace](https://buildspace.so) 
 
   Action-oriented and community-driven course platform. Learn how to build a simple dApp or mint your own NFTs in just hours. (More courses later)
@@ -137,7 +143,7 @@ Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the s
 - [Solidity by Example](https://solidity-by-example.org/)
 
   Summary and examples of most common Solidity functions, use-cases, real smart contracts, and more.
-  
+
 - [ProtoSchool](https://proto.school/)
 
   Interactive tutorials on decentralized web protocols
@@ -145,7 +151,7 @@ Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the s
 - [Questbook](https://questbook.notion.site/Questbook-Learn-Web3-a5f4be8b107f4647a91fe84e6aa7e722)
 
   Questbook is a Decentralized University where learning web3 is always free
-  
+
  - [FreeCodeCamp's Solidity Tutorial](https://www.youtube.com/embed/M576WGiDBdQ)
 
    Comprehensive introduction to main Solidity concepts (+blockchain/smart contracts) everyone needs to start writing their own ERC720 and ERC20 tokens, dApps, and more.  
