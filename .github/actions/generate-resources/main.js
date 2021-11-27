@@ -32,7 +32,7 @@ const fetchAirtableData = async (tableName) => {
       .select()
       .eachPage((records, fetchNextPage) => {
         DATA = records
-          ? [...DATA, ...records.map((item) => item?._rawJson || '')]
+          ? [...DATA, ...records.map((item) => item ? item._rawJson || '' : '')]
           : DATA;
         fetchNextPage();
       });
