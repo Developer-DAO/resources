@@ -33,7 +33,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 
   This guide by [Emanuele Ricci](https://twitter.com/StErMi) will cover how to configure Hardhat to compile, deploy test and debug a Solidity project. You will learn to create a smart contract, test it with Waffle, deploy it on Rinkeby and get it verified by Etherscan.
 
-- [How to deploy your first NFT contract on Ethereum][https://docs.alchemy.com/alchemy/tutorials/how-to-create-an-nft]
+- [How to deploy your first NFT contract on Ethereum](https://docs.alchemy.com/alchemy/tutorials/how-to-create-an-nft)
 
   This guide could tell you how to write and deploy NFT contract, also it could help you to run front-end about minting your deployed contract. Could choose Truffle or Hardhat. And this tutorial could teach you how to mint NFT by script.
 
