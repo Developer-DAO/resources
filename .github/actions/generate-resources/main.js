@@ -77,8 +77,8 @@ const init = async () => {
 
   // ids used with resources
   const authorMap = {};
-  authorsData.forEach((item) => {
-    if (item?.id && item?.fields) { 
+  authorsData.filter(item => item).forEach((item) => {
+    if (item.id && item.fields) {
       authorMap[item.id] = {
         ...item.fields,
         Twitter: cleanTwitterString(item.fields.Twitter)
@@ -100,12 +100,14 @@ const init = async () => {
 
   const buildSection = (title, resourceList) => {
     let resource_string = `## ${title}\n\n`;
-    return resource_string.concat(resourceList.map(
+    return resource_string.concat(
+      // filter to make up for old node not supporting attribute.?otherAttribute syntax
+      resourceList.filter(item => (item && item.fields && item.fields.Author)).map(
         (item) => (
-          `- [${item?.fields?.Title}](${item?.fields?.Source})\n\n  Author${
-            item?.fields?.Author?.length > 1 ? 's' : ''
-          }: ${item?.fields?.Author?.map((authorId) => buildAuthorText(authorMap[authorId]))}${
-            item?.fields?.Summary ? '\n\n  ' + item?.fields?.Summary : ''
+          `- [${item.fields.Title}](${item.fields.Source})\n\n  Author${
+            item.fields.Author.length > 1 ? 's' : ''
+          }: ${item.fields.Author.map((authorId) => buildAuthorText(authorMap[authorId]))}${
+            item.fields.Summary ? '\n\n  ' + item.fields.Summary : ''
           }`
         )
       )
@@ -114,9 +116,9 @@ const init = async () => {
   }
 
   const RESOURCE_BODY = 
-    buildSection('Beginner', resourcesData.filter((item) => item.fields?.Level==='Beginner'))+'\n\n'
-    + buildSection('Intermediate', resourcesData.filter((item) => item.fields?.Level==='Intermediate'))+'\n\n'
-    + buildSection('Advanced', resourcesData.filter((item) => item.fields?.Level==='Advanced'))+'\n\n';
+    buildSection('Beginner', resourcesData.filter((item) => (item.fields && item.fields.Level==='Beginner')))+'\n\n'
+    + buildSection('Intermediate', resourcesData.filter((item) => (item.fields && item.fields.Level==='Intermediate')))+'\n\n'
+    + buildSection('Advanced', resourcesData.filter((item) => (item.fields && item.fields.Level==='Advanced')))+'\n\n';
   console.log(
     'writing to ./RESOURCES.md',
     RESOURCE_HEADER,
