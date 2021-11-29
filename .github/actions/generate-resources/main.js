@@ -93,9 +93,9 @@ const init = async () => {
    */
   const buildAuthorText = (author) => {
     if(author.Twitter){
-      return `[${author.Name ?? 'No name given'}](https://twitter.com/${author.Twitter})`;
+      return `[${author.Name ? author.Name : 'No name given'}](https://twitter.com/${author.Twitter})`;
     }
-    return author.Name ?? '';
+    return author.Name ? author.Name : '';
   }
 
   const buildSection = (title, resourceList) => {
