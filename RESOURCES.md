@@ -34,13 +34,7 @@
 
   Author: [FreeCodeCamp](https://twitter.com/freeCodeCamp)
 
-  This course will give you a full introduction into all of the core concepts in blockchain, smart contracts, solidity, NFTs/ERC721s, ERC20s, Coding Decentralized Finance (DeFi), python and solidity, Chainlink, Ethereum, upgradable smart contracts, and full stack blockchain development. 
-
-- [Testing](http://testing.com)
-
-  Author: [Emanuele Ricci](https://twitter.com/StErMi)
-
-  Testing
+  This course will give you a full introduction into all of the core concepts in blockchain, smart contracts, solidity, NFTs/ERC721s, ERC20s, Coding Decentralized Finance (DeFi), python and solidity, Chainlink, Ethereum, upgradable smart contracts, and full stack blockchain development.
 
 - [How to create an ERC20 Token and a Solidity Vendor Contract to sell/buy your own token](https://dev.to/stermi/how-to-create-an-erc20-token-and-a-solidity-vendor-contract-to-sell-buy-your-own-token-4j1m)
 
@@ -102,6 +96,12 @@
 
   An introduction to the SPL Token Program and Solana's account model, complete with a guide on how to create a token on Solana.
 
+- [Peter's Solidity Recruitment Request](https://www.youtube.com/watch?v=80fA7foSi7c)
+
+  Author: [Consensys](https://twitter.com/ConsenSys)
+
+  Solidity recruitment test given for recruits for a Consensys job. Good job prep and interview practice.
+
 - [A DAO for Developers](https://devdao.mirror.xyz/Jl7_CZvMxkzFv-lJ29NXfEq9LXuZWkUjxOKoCF9CG_w)
 
   Author: Nader Dabit
@@ -117,8 +117,6 @@
   Author: [Loom Network](https://twitter.com/loomnetwork)
 
   CryptoZombies is an interactive school that teaches you all things technical about blockchains. Learn to make smart contracts in Solidity or Libra by making your own crypto-collectibles game.
-
-
 
 - [Solana teardown: Walkthrough of the example helloworld program](https://dev.to/cogoo/solana-teardown-walkthrough-of-the-example-helloworld-program-18m4)
 
@@ -206,9 +204,9 @@
 
 - [How to Debug Pending Ethereum Transactions](https://blog.alchemy.com/blog/how-to-debug-pending-ethereum-transactions)
 
-  Author: [Alchemy Team](https://twitter.com/AlchemyPlatform )
+  Author: [Alchemy Team](https://twitter.com/AlchemyPlatform)
 
-  A deep dive into the flow of a transaction on the Ethereum network, from the moment you hit “send” to the point when the transaction becomes fully mined. 
+  A deep dive into the flow of a transaction on the Ethereum network, from the moment you hit “send” to the point when the transaction becomes fully mined.
 
 - [How to apply TDD when writing an Ethereum smart contract with Solidity](https://medium.com/@fabientownsend/how-to-apply-tdd-when-writing-an-ethereum-smart-contract-with-solidity-1e4b227a84aa)
 
@@ -270,6 +268,5 @@
 
   Author: [tincho](https://twitter.com/tinchoabbate)
 
-  The offensive security playground for decentralized finances. 
-Throughout numerous challenges you will build the skills to become a bug hunter or security auditor in the space.
-
+  The offensive security playground for decentralized finances.
+  Throughout numerous challenges you will build the skills to become a bug hunter or security auditor in the space.
