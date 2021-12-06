@@ -48,6 +48,12 @@
 
   Learn how to build an NFT program in Solana
 
+- [Build a Mini Buymeacoffee dApp Using Solidity + Ethereum Smart Contract + ReactJs + TailwindCSS](https://blog.idrisolubisi.com/build-a-mini-buymeacoffee-dapp-using-solidity-ethereum-smart-contract-reactjs-tailwindcss)
+
+  Author: [Olubisi Ayinde](https://twitter.com/olanetsoft)
+
+  Build a dapp to send some crypto to buy a coffee and a note with Solidity, React, and Tailwind.css.
+
 - [The Ultimate Guide To Getting Started With NFTs](https://www.tomhirst.com/getting-started-with-nfts)
 
   Author: [Tom Hirst](https://twitter.com/tom_hirst)
@@ -165,6 +171,12 @@
   Author: [Scott Bigelow](https://twitter.com/epheph)
 
   An introduction and real time example of a frontrun on Ethereum Mainnet
+
+- [The Financialization of Fun: Crypto Gaming Thesis](https://www.mechanism.capital/crypto-gaming-thesis/)
+
+  Author: [Eva Wu](https://twitter.com/wvaeu)
+
+  Blockchain gaming is seeing a hurricane of action; while Steam bans crypto gaming, big game studios are exploring it and “Play to Earn (P2E)” is on every VC’s lips.
 
 - [Capture The Ether](https://capturetheether.com/)
 
