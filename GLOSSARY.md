@@ -75,6 +75,13 @@
     
     [Learn more from Hardhat Docs](https://hardhat.org/getting-started/)
 
+## L
+
+- What is Layer 2?
+  > Layer 2 is a collective term for solutions designed to help scale your application by handling transactions off the Ethereum Mainnet (Layer 1) while taking advantage of the robust decentralized security model of Mainnet.
+
+  [Learn more from ethereum.org](https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/)
+
 ## M
 -  What is Metamask?
 
@@ -122,7 +129,7 @@
     [Learn more from Truffle Docs](https://www.trufflesuite.com/docs/truffle/overview)
 
 ## W
- - What is Web3?
+ - What is Web3.Js?
     >  It is a JavaScript library that allows you to interact with the Ethereum (local or remote) blockchain using HTTP, IPC or WebSocket.  It acts as the middleman between your frontend and your smart contracts.
 
     [Learn more from Web3 Docs](https://web3js.readthedocs.io/en/v1.5.2/web3-eth.html)
