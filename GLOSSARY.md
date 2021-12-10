@@ -120,3 +120,10 @@
     > Truffle is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
 
     [Learn more from Truffle Docs](https://www.trufflesuite.com/docs/truffle/overview)
+
+## W
+ - What is Web3?
+    >  It is a JavaScript library that allows you to interact with the Ethereum (local or remote) blockchain using HTTP, IPC or WebSocket.  It acts as the middleman between your frontend and your smart contracts.
+
+    [Learn more from Web3 Docs](https://web3js.readthedocs.io/en/v1.5.2/web3-eth.html)
+    
