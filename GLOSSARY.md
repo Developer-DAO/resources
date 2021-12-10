@@ -64,6 +64,10 @@
     > Gas is essential to the Ethereum network. It is the fuel that allows it to operate, in the same way that a car needs gasoline to run.
     
     [Learn more from Ethereum Docs](https://ethereum.org/en/developers/docs/gas/)
+- What is Ganache?
+    > Ganache is a test network for Ethereum. It is a blockchain simulator client or  virtual blockchain that runs on your computer. It is a free service that allows you to test your smart contracts and Ethereum smart contracts. blockchain simulator client. You can think of it as similar to a localhost server, it's a private blockchain that only runs on your computer.
+    
+    [Learn more from Ganache Docs](https://trufflesuite.com/ganache/)
 
 ## H
 - What is Hardhat?
