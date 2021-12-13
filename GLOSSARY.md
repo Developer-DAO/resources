@@ -53,6 +53,11 @@
 
     [Learn more from EVM Docs](https://ethereum.org/en/developers/docs/evm/)
 
+- What is Ether.js?
+    > A complete Ethereum wallet implementation and utilities in JavaScript (and TypeScript).
+    [Learn more from ether Docs](https://docs.ethers.io/v5/)
+
+
 ## F
 - What is a Fungible Token?
     > The ERC-20 introduces a standard for Fungible Tokens, in other words, they have a property that makes each Token be exactly the same (in type and value) of another Token. For example, an ERC-20 Token acts just like the ETH, meaning that 1 Token is and will always be equal to all the other Tokens.
@@ -64,6 +69,10 @@
     > Gas is essential to the Ethereum network. It is the fuel that allows it to operate, in the same way that a car needs gasoline to run.
     
     [Learn more from Ethereum Docs](https://ethereum.org/en/developers/docs/gas/)
+- What is Ganache?
+    > Ganache is a test network for Ethereum. It is a blockchain simulator client or  virtual blockchain that runs on your computer. It is a free service that allows you to test your smart contracts and Ethereum smart contracts. blockchain simulator client. You can think of it as similar to a localhost server, it's a private blockchain that only runs on your computer.
+    
+    [Learn more from Ganache Docs](https://trufflesuite.com/ganache/)
 
 ## H
 - What is Hardhat?
@@ -123,3 +132,10 @@
     > Truffle is a world-class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
 
     [Learn more from Truffle Docs](https://www.trufflesuite.com/docs/truffle/overview)
+
+## W
+ - What is Web3.Js?
+    >  It is a JavaScript library that allows you to interact with the Ethereum (local or remote) blockchain using HTTP, IPC or WebSocket.  It acts as the middleman between your frontend and your smart contracts.
+
+    [Learn more from Web3 Docs](https://web3js.readthedocs.io/en/v1.5.2/web3-eth.html)
+    
