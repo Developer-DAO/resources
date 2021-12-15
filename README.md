@@ -44,7 +44,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Patrick Collins on YouTube](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
 - [Whiteboard Crypto on YouTube](https://www.youtube.com/channel/UCsYYksPHiGqXHPoHI-fm5sg)
 - [EatTheBlock on YouTube](https://www.youtube.com/c/EatTheBlocks)
-- [Ivan on Tech o YouTube](https://www.youtube.com/c/IvanonTech/)     
+- [Ivan on Tech on YouTube](https://www.youtube.com/c/IvanonTech/)     
 
 ### 📚 Docs
 
