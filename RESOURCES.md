@@ -226,6 +226,12 @@
 
   Introduction on how to use TDD when writing an ETH smart contract
 
+- [Smart Contracts Risk Analysis and Flash Loan Exploits - Ethereum Security](https://www.youtube.com/watch?v=nLHCyEvszkc)
+
+  Author: [Loom Network](https://twitter.com/loomnetwork)
+
+  Mudit Gupta, an advisor to the SushiSwap protocol has a 90 minute video on smart contract security
+
 - [Secure Development Series](https://www.youtube.com/playlist?list=PLdJRkA9gCKOONBSlcifqLig_ZTyG_YLqz)
 
   Author: [tincho](https://twitter.com/tinchoabbate)
