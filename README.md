@@ -70,6 +70,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 
 - [CryptoZombies](https://cryptozombies.io/en/solidity)
 - [Capture the Ether](https://capturetheether.com/)
+- [Vyper.fun](https://vyper.fun/lessons.html#)  
 
 ### 🔨 Tools
 
