@@ -44,6 +44,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Patrick Collins on YouTube](https://www.youtube.com/channel/UCn-3f8tw_E1jZvhuHatROwA)
 - [Whiteboard Crypto on YouTube](https://www.youtube.com/channel/UCsYYksPHiGqXHPoHI-fm5sg)
 - [EatTheBlock on YouTube](https://www.youtube.com/c/EatTheBlocks)
+- [Smart Contract Programmer](https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA)
 
 ### 📚 Docs
 
