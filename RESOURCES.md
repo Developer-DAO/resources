@@ -155,8 +155,9 @@
 - [Discover Ethereum & Solidity Unleash the power of blockchain     applications](https://www.ludu.co/course/ethereum)
 
   Author: [Tristan Edwards](https://twitter.com/t4t5)
+
+  In this tutorial, beginners can create a complete DApp from start to finish, using common best practices from the Ethereum ecosystem with test cases for smart contracrts.
   
-  In this tutorial, beginners can create a complete DApp from start to finish, using common best practices from the Ethereum ecosystem
 
 ## Intermediate
 
