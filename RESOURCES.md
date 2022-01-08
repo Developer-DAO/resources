@@ -84,6 +84,12 @@
 
   Going fulltime in Web3. Talks about the author's journey and has a cool summary of his journey so far.
 
+- [How to Generate a New Ethereum Address in Ruby](https://www.quicknode.com/guides/web3-sdks/how-to-generate-a-new-ethereum-address-in-ruby)
+
+  Author: [Loom Network](https://twitter.com/loomnetwork)
+
+  How to generate an ethereum address in ruby
+
 - [Building a Blockchain in Go PT: I - The Hello World of Blockchains](https://dev.to/nheindev/build-the-hello-world-of-blockchain-in-go-bli)
 
   Author: [Noah Hein](https://twitter.com/NHeinDev)
