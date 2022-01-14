@@ -288,6 +288,12 @@
 
   Deconstruct bad launches to determine what a good launch needs, breaks down the steps of a launch, and provides a reference implementation of a well designed launch.
 
+- [Ultimate DeFi Research Base](https://github.com/OffcierCia/ultimate-defi-research-base)
+
+  Author: [CIA Officer](https://twitter.com/officer_cia)
+
+  Curated DeFi and blockchain resources. Tools and Research Papers.
+
 - [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/)
 
   Author: [tincho](https://twitter.com/tinchoabbate)
