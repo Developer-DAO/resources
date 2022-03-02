@@ -156,6 +156,9 @@ Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the s
  - [FreeCodeCamp's Solidity Tutorial](https://www.youtube.com/embed/M576WGiDBdQ)
 
    Comprehensive introduction to main Solidity concepts (+blockchain/smart contracts) everyone needs to start writing their own ERC720 and ERC20 tokens, dApps, and more.  
+ - [Dacade](https://dacade.org)
+ 
+   Dacade is a peer-to-peer education platform that makes active social learning affordable and scalable.
 
 ### Paid Courses
 
