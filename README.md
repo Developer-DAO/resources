@@ -156,6 +156,10 @@ Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the s
  - [FreeCodeCamp's Solidity Tutorial](https://www.youtube.com/embed/M576WGiDBdQ)
 
    Comprehensive introduction to main Solidity concepts (+blockchain/smart contracts) everyone needs to start writing their own ERC720 and ERC20 tokens, dApps, and more.  
+   
+ - [Encode Club Bootcamps](https://www.encode.club/encode-bootcamps)
+
+    Intensive and remote live courses that will help you become a certified Web3 developer and get placed in a crypto job 
 
 ### Paid Courses
 
