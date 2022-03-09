@@ -97,6 +97,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Filecoin](https://filecoin.io/)
 - [Piñata](https://www.pinata.cloud/)
 - [NFT.STORAGE](https://nft.storage/)
+- [Web3 Storage](https://web3.storage/)
 
 ### Solana
 
