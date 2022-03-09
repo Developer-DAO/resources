@@ -95,6 +95,8 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [IPFS](https://ipfs.io/)
 - [Arweave](https://www.arweave.org/)
 - [Filecoin](https://filecoin.io/)
+- [Piñata](https://www.pinata.cloud/)
+- [NFT.STORAGE](https://nft.storage/)
 
 ### Solana
 
