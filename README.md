@@ -90,7 +90,7 @@ The community has created this knowledge base to help you **learn** and **grow**
 - [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.8/index.html)
 - [Truffle Suite Documentation](https://www.trufflesuite.com/docs)
 
-## Dorage (Decentralized Storage)
+## Storage (Decentralized Storage)
 
 - [IPFS](https://ipfs.io/)
 - [Arweave](https://www.arweave.org/)
