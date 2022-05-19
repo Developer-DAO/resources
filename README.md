@@ -137,6 +137,8 @@ Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the s
 
 ### Free Courses
 
+- [Cadena] (https://cadena.dev/) Cadena helps developers transition into web3 tuition free. Learn by coding smart contracts, NFTs, tokens and more with our free courses.
+
 - [Buildspace](https://buildspace.so) 
 
   Action-oriented and community-driven course platform. Learn how to build a simple dApp or mint your own NFTs in just hours. (More courses later)
