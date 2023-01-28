@@ -157,6 +157,10 @@ Layer 2 rollups provide a path to scaling Ethereum in a way that preserves the s
 
    Comprehensive introduction to main Solidity concepts (+blockchain/smart contracts) everyone needs to start writing their own ERC720 and ERC20 tokens, dApps, and more.  
 
+- [Web3 University](https://www.web3.university/)
+
+  Covering the fundamentals of Web3 development from writing smart contracts to building production ready full-stack dApps. Featuring popular blog posts from a variety of sources across different blockchains and systems, builders and other lists of resources in the Web3 community.
+  
 ### Paid Courses
 
 - [Ethereum and Solidity: The Complete Developer's Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) (Udemy)
