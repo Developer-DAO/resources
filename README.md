@@ -17,6 +17,8 @@ The community has created this knowledge base to help you **learn** and **grow**
 
 ### 📄 Tutorials
 
+- [Preserve Large Numbers and Identifiers in JSON](https://bestjson.com/learn/json-large-numbers) - JavaScript precision-loss examples and safe handling of decimal identifiers in JSON API data.
+
 - [The Complete Guide to Full Stack Ethereum Development](https://dev.to/dabit3/the-complete-guide-to-full-stack-ethereum-development-3j13)
 
   This guide by [Nader Dabit](https://github.com/dabit3) is especially useful for Web2 devs and provides a basic understanding of building a full stack dApp from end-to-end using technologies including Hardhat, Solidity, Ethers.js, The Graph, and React.
